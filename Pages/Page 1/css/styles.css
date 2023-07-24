@@ -1,0 +1,168 @@
+/*---Font----*/
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #FFF1CC;
+    font-size: 3.052rem;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #FFF1CC;
+    font-size: 1.953rem;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #FFF1CC;
+    font-size: 1.563rem;
+}
+
+h4{
+    font-family: 'Montserrat', sans-serif;
+    color: #FFF1CC;
+    font-size: 1.25rem;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: #FFF1CC;
+    font-size: 1rem;
+}
+
+/*----Main Structure----*/
+body {
+    margin: 0%;
+}
+
+section {
+    display: block;
+    margin: 0%;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.text {
+    inline-size: 570px;
+    margin: 32px;
+}
+
+/*----Splash----*/
+#splash {
+    background-color: #A00603;
+    margin: 0%;
+    height: 100vh;
+    display: flex;
+    align-items: stretch;
+}
+
+#redHalf {
+    flex: 2;
+    display: flex;
+    margin: 32px;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+#logo {
+    padding-right: 32px;
+}
+
+#logo img {
+    height: 100px;
+    width: auto;
+}
+
+#menuIcon {
+    margin-left: 20rem;
+}
+
+#drawing {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#drawing img {
+    max-height: 100vh;
+    width: auto;
+}
+
+#spanish {
+    color: rgba(255, 241, 204, 0.65);
+}
+
+/*-----SexSupport-----*/
+#SexSupport {
+    background-color: #223843;
+    margin: 0%;
+}
+
+.SexSupportPic {
+    max-height: 80vh;
+    width: auto;
+    margin: 32px;
+}
+
+/*-----PAWS-----*/
+#PAWS {
+    background-color: #FDDA7D;
+}
+
+.PAWSpic {
+    margin: 32px;
+    height: 65vh;
+}
+
+.PAWStext {
+    color: #040E13;
+}
+
+/*-----EcoGeek-----*/
+#EcoGeek {
+    background-color: #223843;
+}
+
+.EcoGeekPic {
+    height: 80vh;
+    margin: 32px;
+}
+
+/*-----About-----*/
+#About {
+    background-color: #A00603;
+}
+
+.bioPhoto img {
+    max-height: 50vh;
+    width: auto;
+    border-radius: 50%;
+    padding: 32px;
+}
+
+/*-----Footer----*/
+footer {
+    background-color: #6B0504;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.foottext {
+    margin: 32px;
+    display: flex;
+}
+
+.icon {
+    padding: 12px;
+}
